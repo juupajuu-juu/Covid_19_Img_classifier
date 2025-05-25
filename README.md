@@ -4,8 +4,8 @@ from torchvision import datasets, transforms, models
 from torch.utils.data import DataLoader
 
 # Paths
-train_dir = r"C:\Users\tuomo\Downloads\archive\Covid19-dataset\train"
-test_dir = r"C:\Users\tuomo\Downloads\archive\Covid19-dataset\test"
+train_dir = r"C:\Users\Downloads\archive\Covid19-dataset\train" # <- use your own path here
+test_dir = r"C:\Users\Downloads\archive\Covid19-dataset\test" # <- use your own path here
 
 # Image transforms
 transform = transforms.Compose([
